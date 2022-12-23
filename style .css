@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.arrayp{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+}
+
+#btnn {
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    border-radius: 48px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btnn:hover{
+    background-color: black;
+    color: white;
+}
+
+#op-1 {
+    font-size: 40px;
+    color: white;
+}
